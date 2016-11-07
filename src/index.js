@@ -1,9 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Stream from './components/Stream';
 
-const title = 'React Redux SoundCloud App';
+const tracks = [
+	{
+		title: 'Some track'
+	},
+	{
+		title: 'Some other track'
+	}
+];
 
 ReactDOM.render(
-	<div>{title}</div>,
+	<Stream tracks={tracks} />,
 	document.getElementById('app')
 );
