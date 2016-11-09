@@ -13,6 +13,7 @@ function Stream({ tracks = [] }) {
 	);
 }
 
+export default Stream;
 
 /* 
 
@@ -36,5 +37,3 @@ class Stream extends React.Component {
 
 }
 */
-
-export default Stream;
